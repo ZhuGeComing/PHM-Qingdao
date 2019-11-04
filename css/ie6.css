@@ -1,0 +1,101 @@
+#global-hd-container {
+	background-image: none;
+}
+
+#global-hd ul li {
+	padding: 0px 14px 0px 18px;
+}
+
+/* Navigation Styles */
+#navbar #navigation ul li {
+	background-image: url(../images/bg_Globalnav.gif);
+}
+
+#navbar #navigation ul li.last {
+	background-image: url(../images/bg_Globalnav.gif);
+}
+
+#navbar #navigation ul li a:hover {
+	background-image: url(../images/bg_Globalnav_RO.gif);
+}
+
+#navbar #navigation ul li a.last:hover  {
+	background-image: url(../images/bg_Globalnav_RO.gif);
+}
+
+#navbar #navigation ul li a.active {
+	background-image: url(../images/bg_Globalnav_RO.gif);
+}
+
+#navbar #navigation ul li a.lastactive  {
+	background-image: url(../images/bg_Globalnav_RO.gif);
+}
+
+#wedge {
+	right: -1px;
+}
+
+#container #logos {	
+	margin-top: 5px;
+}
+
+#logos {
+	background-image: url(../images/logo_ieeeBLK.gif);
+}
+
+#search {
+	background: url(../images/bg_searchBar.gif) no-repeat top right;	
+}
+
+#hp-content #hp-content1 .right #searchbox2 {
+	background: url(../images/bg_searchLeft.gif) no-repeat top left;
+}
+
+#hp-content #hp-content1 .right .srch-btn-right {
+	background: url(../images/bg_searchRight.gif) no-repeat -20px 0px;
+}
+
+#hp-content #hp-content1 .left {
+	margin: 5px 0 0 5px;
+	width: 560px;
+}
+
+#hp-content #hp-content5 {
+	width: 937px;
+}
+
+#content .sp-content1 {
+	height: 113px;
+}
+
+#content .sp-content2 {
+	height: 223px;
+}
+
+
+
+#leftnav .control {
+	width: 13px;
+	margin-left: 5px; 
+}
+
+#leftnav ul li a {
+	height:17px;
+}
+
+#footer .divider {
+	background-image: none;	
+}
+
+.header {
+	background: #424f6e;	
+}
+
+.btn-left {
+	background: url(../images/btn_Left.gif) no-repeat 0 0;
+}
+
+.btn-right {
+	background: url(../images/btn_Right.gif) no-repeat 0 0;
+}
+

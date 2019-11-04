@@ -1,0 +1,28 @@
+@import url("reset.css"); /* Reset elements */
+@import url("global.css"); /* Generic styles */
+@import url("layout.css"); /* Page layout styles */
+@import url("customize.css"); /* Alterable styles to change template color scheme */
+
+HTML {
+	min-height: 100%;
+	height: auto;
+}
+BODY {
+	line-height: 1;
+	font: normal 11px Verdana, sans-serif;
+	color: #2a2a2a;
+}
+a:link, a:visited {
+	color: #006699;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover, a:active {
+	color: #006699;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#content table.signature td {
+  border: 0px solid #BDBCBD;
+}

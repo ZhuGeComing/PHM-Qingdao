@@ -1,0 +1,149 @@
+/* Global Styles */
+BODY {
+	background-color: #47bef0;
+	background-image: url(../images/bg.jpg) ;
+	background-repeat: repeat-x;
+}
+
+/* Global Header Styles */
+#global-hd-container {
+	background-image: url(../images/bg_global_header.png);
+	background-repeat: repeat-x;
+	background-color: #ededed;
+	color: #fff; 
+}
+
+/* Navigation Styles */
+#navbar #navigation ul li {
+	background-image: url(../images/bg_Globalnav.png);
+	border-left: 1px solid #00aeef;
+}
+
+#navbar #navigation ul li.last {
+	background-image: url(../images/bg_Globalnav.png);
+}
+
+#navbar #navigation ul li a {
+	color: #fff;
+}
+
+#navbar #navigation ul li a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-image: url(../images/bg_globalNav_RO.png);
+}
+
+#navbar #navigation ul li a.last:hover  {
+	background-image: url(../images/bg_globalNav_RO.png);
+	text-decoration: none;
+}
+
+#navbar #navigation ul li a.active {
+	color: #fff;
+	text-decoration: none;
+	background-image: url(../images/bg_globalNav_RO.png);
+}
+
+#navbar #navigation ul li a.lastactive  {
+	color: #fff;
+	text-decoration: underline;
+	background-image: url(../images/bg_globalNav_RO.png);
+}
+
+#navbar #sign-in {
+	color: #000;
+}
+
+#navbar #sign-in a:link, #navbar #sign-in a:visited, #navbar #sign-in a:hover {
+	color: #000;
+}
+
+/* Search Bar Styles */
+#search {
+	background: url(../images/bg_searchBar.png) no-repeat top right;	
+}
+
+#sub-container-bar {
+	background-color: #5e6a86;
+}
+
+/* Left Navigation Styles */
+#leftnav .control {
+	font-weight: bold;
+	color: #414e6d;
+	width: 13px;
+	float: left;
+}
+
+#leftnav ul li a.active {
+	color: #2a2a2a;
+}
+
+/* Content Styles */
+div .header {
+	background-color: #5e6a86;
+	color: #fff;
+}
+
+div .border {
+	border: 1px solid #bdbcbd;
+}
+
+div .content-bg {
+    background-color: #ffffff;
+    background-image: url(../images/bg_content_2.gif);
+	background-color: #fafcfc;
+	background-repeat: repeat-x;
+}
+
+/* Footer Styles */ 
+#footer {
+	border: 1px solid #bdbcbd;
+	background-color: #fff;
+	background: url(../images/bg_footer.gif) repeat-x bottom right;	
+}
+
+#footer a:link, #footer a:visited {
+	color: #2a2a2a;
+	font-weight: normal;
+}
+
+#footer a:hover, #footer a:active {
+	color: #2a2a2a;
+	font-weight: normal;
+}
+
+#footer .divider {
+	background-color: #424f6e;
+}
+
+.showSummary {
+ background-color: #fafcfc;
+ border-collapse: separate;
+ border-spacing: 2pt;
+}
+
+td {
+  padding: 0.5em;
+}
+
+.session {
+  width: 90%;
+}
+
+.listTPC {
+  border-collapse: collapse;
+  border-spacing: 0; 
+}
+
+.sponsorDesc {
+  color:#990000;
+  font-size:14px;
+  font-weight:bold;
+  padding-top:16px;
+  text-align:center;
+}
+
+.sessiontime {
+  margin-top: 1em;
+}

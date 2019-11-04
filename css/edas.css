@@ -1,0 +1,563 @@
+/* General format */
+h1 {font-family: sans-serif; font-size: 1.5em}
+h2 {font-family: sans-serif; font-size: 1.2em}
+
+body {
+  font-family: arial,verdana,sans-serif;
+  font-size: small;
+}
+
+hr {
+  clear: both;
+}
+
+.inh {
+  color: inherit;
+}
+
+a:link {text-decoration: none; color: #0000ee}
+a.inh:link {text-decoration: none; color: inherit;}
+a.inh:hover {text-decoration: underline; color: inherit;}
+a:visited {text-decoration: none; color: #0000ee}
+a:hover {text-decoration: underline; color:#080808}
+a img {
+  border: 0;
+}
+
+tr.odd {background-color: #cccccc}
+td.odd {background-color: #cccccc}
+tr.even {background-color: #eeeeee}
+.sf {font-family: sans-serif;}
+.menu {font-family: 'arial', sans-serif; font-size: 80%;} 
+.listConferences {font-size: 80%;}
+.icon {width: 40px;}
+.icontext {font-size: 60%; font-family: sans-serif;}
+.bigmenu { font: bold 120% sans-serif }
+.undefined {background-color: #fff6bf;}
+.defined {}
+
+.letterheading {
+  background-color: #aaaaaa;
+  text-align: center;
+  border-top: 2px solid #336699;
+  border-bottom: 2px solid #336699;
+  font-weight: bold; 
+}
+
+table.listCommittee {
+  border: 0px !important;
+}
+table.listCommittee tr {
+  border: 0px !important;
+}
+table.listCommittee tr td {
+  border: 0px !important;
+  vertical-align: middle;
+}
+
+.notice { 
+  background: #fff6bf url(icon/exclamation.png) center no-repeat;
+  background-position: 15px 50%; /* x-pos y-pos */
+  text-align: left;
+  padding: 5px 20px 5px 45px;
+  border-top: 2px solid #ffd324;
+  border-bottom: 2px solid #ffd324;
+}
+
+.highlight {
+  background-color: #fff6bf;
+}
+
+.trafficjam {
+  background: #fff6bf url('icon/trafficjam.png') center no-repeat;
+  background-position: 15px 50%; /* x-pos y-pos */
+  text-align: left;
+  padding: 30px 80px 30px 80px;
+  border-top: 2px solid #ffd324;
+  border-bottom: 2px solid #ffd324;
+}
+
+.attendeebox {
+  width: 30em;
+  border: solid 2px #0f3e0a;
+  background: #93DE8B url(icon/vcard.png) 8px 6px no-repeat;
+  padding-left: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.success { font-size: 120%}
+a.bigmenu:link {text-decoration:none; color: white;}
+a.bigmenu:active {text-decoration:none; color: #ffb;}
+a.bigmenu:visited {text-decoration:none; color: white;}
+a.bigmenu:hover {text-decoration:none; color: #ffb;}
+dt {
+  margin-top: 1em;
+  font-weight: bold; 
+}
+table {margin-top: 0.5em;}
+th {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-family: sans-serif
+}
+td {padding-left: 0.5em; padding-right: 0.5em}
+dl.help dd {
+  font-size: small;
+}
+.logo {
+  float: left;
+  margin-left: 0;
+  margin-right: 1em;
+  font-size: 80%;
+}
+.image-left {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.error {
+  color : red;
+}
+
+.example {
+  background-color: #CCCCCC;
+  white-space: pre-wrap;
+}
+
+.session {
+  margin-left: 50px;
+  margin-right: 1em;
+  background-color: #EEEEEE;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.formheader {
+  white-space: nowrap; 
+  background-color: #CCCCCC;
+}
+
+.headerbar {
+  width: 100%;
+  font-size: 120%;
+  font-weight: bold;
+  background-color: #A0A0A0;
+  color: white;
+  padding-left: 1em;
+}
+
+.heading {
+  font-size: 110%;
+  font-weight: bold; 
+  background-color: #336699;
+  color: white;
+}
+
+.sum {
+  font-weight: bold; 
+  background-color: #A0A0A0;
+  color: white;
+}
+
+.heading a:link {
+  color: #ffffcc;
+}
+.heading a:visited {
+  color: #ffffcc;
+}
+
+.tiny-heading {
+  font-size: 60%;
+  font-weight: bold; 
+  background-color: #336699;
+  color: white;
+}
+
+.top-tiny-heading {
+  vertical-align: top;
+  font-size: 60%;
+  font-weight: bold; 
+  background-color: #336690;
+  color: white;
+}
+
+.papertitle-claim {
+  font-style: italic;
+  font-weight: bold; 
+}
+
+.papertitle {
+  font-size: inherit;
+  font-style: italic;
+}
+
+.papertitle-small {
+  font-size: 80%;
+  font-style: italic;
+}
+
+.reviewscore {
+  font-size: x-small;
+}
+
+.reviewtext {
+  font-size: x-small;
+  background: #ffddbf;
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.caption {
+  font-size: x-small;
+}
+
+.detail {
+  font-size: small;
+  background: #dddddd;
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+pre.plaintext {
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.emailtext {
+  font-size: x-small;
+  white-space: pre; 
+}
+
+.notes {
+  font-size: 80%;
+}
+
+.footer {
+  font-size: 60%;
+}
+
+.tiny {
+  font-size: 60%;
+}
+
+.abstract {
+  font-size: 80%;
+  text-align: justify;
+}
+
+.keywords {
+  font-size: 80%;
+}
+
+.rebuttal {
+  font-size: x-small;
+  background: #D6C1A8;
+}
+
+.bio {
+  font-size: 75%;
+}
+
+.topics {
+  font-size: 80%;
+}
+
+.presenter { 
+  text-decoration: underline;  
+}
+
+.sessiontime {
+  margin-left: 30px;
+  margin-top: 1em;
+}
+
+.sessiontitle {
+  margin-top: 0.5em;
+  margin-left: 30px;
+  color: #0011aa;
+}
+
+.sessionsubtitle {
+  margin-left: 50px;
+  color: #222222;
+}
+
+.sessionspeaker {
+  margin-left: 50px;
+}
+
+.sessiondetails {
+  font-size: 80%;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 1em;
+  padding: 1em;
+  background-color: #aaaaaa;
+}
+
+.pageheader {
+  font-style: italic;
+}
+
+.page {
+  font-size: 80%;
+  color: #222222;
+}
+
+.chair {
+  text-indent: -50px;
+  margin-left: 10em;
+  margin-bottom: 0.5em;
+}
+
+/* ;before not supported by IE7 */
+.room:before {
+  /* content: "Room: " */
+}
+.room {
+  margin-left: 50px;
+  color: purple;
+}
+.sessionday {
+  margin-top: 1em;
+  background-color: #336699;
+  color: white;
+  padding: 0.3em;
+}
+
+.submitinstructions {
+  background: #ffffcc;
+  margin: 1em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
+  border-color: #ffd324;
+  border-style: solid;
+  border-width: medium;
+}
+
+.favorites {
+  background: #edd7b9;
+  margin: 1em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
+  border-style: solid;
+  border-width: thin;
+}
+
+.menubox {
+  display: inline;
+}
+.menubox img {
+  display: inline;
+}
+
+img {
+  border-width: 0em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.review-assigned      {background-color: #eeeeff}
+.review-notified      {background-color: #99ffff}
+.review-confirmed     {background-color: #ffff99}
+.review-declined      {background-color: #aaaaaa}
+.review-completed     {background-color: #66cc00}
+.review-late          {background-color: #cc3333}
+.review-undeliverable {background-color: #cc33ff}
+.review-notneeded     {background-color: #8ca080}
+
+.application-pending   {background-color: #ffffff; color: black}
+.application-active    {background-color: #ffffcc}
+.application-withdrawn {background-color: #dddddd}
+.application-granted   {background-color: #99ff99}
+.application-denied    {background-color: #ff9900}
+
+.conflict-active       {background-color: #ffffcc}
+.conflict-inactive     {background-color: #dddddd}
+
+.paper-pending           {background-color: #ffffff; color: black}
+.paper-active            {background-color: #ffff52}
+.paper-abstract          {background-color: #ffffcc}
+.paper-abstract_accepted {background-color: #c8f536}
+.paper-withdrawn         {background-color: #dddddd}
+.paper-needreviews       {background-color: #ba4ab8}
+.paper-discuss           {background-color: #99b2cc}
+.paper-accepted          {background-color: #99ff99}
+.paper-custom_accepted   {background-color: #6aa36a}
+.paper-major_revision    {background-color: #F6C79A}
+.paper-minor_revision    {background-color: #DFEEA2}
+.paper-rejected          {background-color: #ff9900}
+.paper-custom_rejected   {background-color: #ff2400}
+.paper-noshow            {background-color: #C267DB}
+.paper-noshow_excused    {background-color: #2AC7BA}
+.paper-published         {background-color: #33ff00}
+
+.reviews-none            {background-color: #ff9900}
+.reviews-partial         {background-color: #ffffcc}
+.reviews-complete        {background-color: #99ff99}
+
+.contract-released     {background-color: #99ff99}
+.contract-notreleased  {background-color: #ff9900}
+.contract-neutral      {}
+
+/* paper claims */
+.requested1 {background-color: #00aa00}
+.requested2 {background-color: #99ff99; color: #222222}
+.requested3 {background-color: #ffff99; color: #222222}
+.requested4 {background-color: #E398B1; color: #222222}
+
+/* session claim preferences */
+.preference0 {background-color: #E398B1; color: #888888}
+.preference1 {background-color: #ffff99} 
+.preference2 {background-color: #00aa00}
+
+.r1 {color: #00aa00; font-size: 1em;}
+
+.ofinterest {background-color: #00aa00}
+.neutral    {background-color: #aaaaaa}
+.nointerest {background-color: #E398B1}
+
+.tpc-chosen       {background-color: #ffffcc; color: black}
+.tpc-notify       {background-color: #99b2cc; color: black}
+.tpc-invited      {background-color: #ffffff; color: black}
+.tpc-accepted     {background-color: #99ff99}
+.tpc-declined     {background-color: #dddddd}
+.tpc-noresponse   {background-color: #cc33ff}
+.tpc-invalidemail {background-color: #dd33ff}
+.tpc-inactive     {color: #dd33ff}
+
+.recommendation-submitted {color : #00cc00}
+.recommendation-missing {color : #222222}
+
+p.author_rating {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #8F9DBA;
+  background-color: #ffebe1;
+}
+
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.curlycontainer {
+  border: 1px solid #b8b8b8;
+  margin-bottom: 1em;
+  width: 300px;
+  background-color: #fcf5c0;
+}
+
+.curlycontainer .innerdiv {
+  background: transparent url(icon/brcorner.gif) bottom right no-repeat; 
+  position: relative;
+  left: 2px;
+  top: 2px;
+  padding: 1px 4px 15px 5px;
+  font-family: 'Marker Felt';
+}
+
+.IEEEPage {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width: 30em;
+  background-color: #eeeeee;
+}
+
+.papers dd {
+  margin-left: 40px;
+  margin-right: 1em;
+}
+
+.papers dt {
+  margin-left: 1em;
+}
+
+.catalog {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  background-color: #cccccc;
+}
+
+.toc-session {
+  list-style: none;
+}
+
+.toc-session li {
+  display: block;
+  position: relative;
+  background: url(../icon/dotted.png) repeat-x left bottom;
+  margin-bottom: 1em;
+}
+  
+.toc-item {
+  width: 80%;
+  float: left;
+}
+  
+.toc-clear {
+  clear: both;
+  line-height: 1px;
+}
+ 
+.toc-pagenumber {
+  text-align: right;
+  width: 10%;
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+ 
+.toc-papertitle {
+  font-style: italic;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+ 
+.toc-authorlist {
+  padding: 0 0.1em 0 1em;
+  background-color: #FFFFFF;
+}
+
+.toc-authors {
+  margin: 0 0 0 0;
+}
+
+.toc-pg {
+  padding: 0 0.1em 0 1em;
+  background-color: #FFFFFF;
+}
+
+.authors-list {
+  margin: 1em 0em 1em 0em;
+}
+
+.photo-left {
+  vertical-align: text-top;
+  float: left;
+  margin: 0.5em
+}
+ 
+.photo-right {
+  vertical-align: text-top;
+  float: right;
+  margin: 0.5em
+}
+
+.photo-centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0.5em
+}
